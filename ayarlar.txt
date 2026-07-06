@@ -1,1 +1,3 @@
-Veritabanı: Oracle
+
+Veritabanı: PostgreSQL
+
