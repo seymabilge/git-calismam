@@ -1,1 +1,1 @@
-Veritabanı: MySQL
+Veritabanı: PostgreSQL
