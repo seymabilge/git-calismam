@@ -1,0 +1,81 @@
+<h2>Kullanıcı Kayıt Formu</h2>
+
+<form action="" method="POST">
+
+   
+    <p>
+        <label for="kullanici">Kullanıcı Adı:</label><br>
+        <input type="text" id="kullanici" name="username" placeholder="Kullanıcı adınızı giriniz" required>
+    </p>
+
+    
+    <p>
+        <label for="eposta">E-posta Adresi:</label><br>
+        <input type="email" id="eposta" name="email" placeholder="ornek@mail.com" required>
+    </p>
+
+
+    <p>
+        <label for="sifre">Şifre:</label><br>
+        <input type="password" id="sifre" name="password" placeholder="Şifrenizi giriniz" required>
+    </p>
+    <p>
+        <label for="telefon">Telefon Numarası:</label><br>
+        <input type="tel" id="telefon" name="phone" placeholder="0555 XXXXXXX">
+    </p>
+
+    
+    <p>
+        <label for="sehir">Yaşadığınız Şehir:</label><br>
+        <select id="sehir" name="city">
+            <option value="">Seçiniz</option>
+            <option value="istanbul">İstanbul</option>
+            <option value="ankara">Ankara</option>
+            <option value="izmir">İzmir</option>
+        </select>
+    </p>
+
+  
+    <p>
+        <label>Cinsiyet:</label><br>
+        <input type="radio" id="erkek" name="gender" value="erkek">
+        <label for="erkek">Erkek</label>
+        
+        <input type="radio" id="kadin" name="gender" value="kadin">
+        <label for="kadin">Kadın</label>
+    </p>
+
+    
+    <p>
+        <label>İlgi Alanlarınız:</label><br>
+        <input type="checkbox" id="yazilim" name="interests" value="yazilim">
+        <label for="yazilim">Yazılım / Kodlama</label><br>
+        
+        <input type="checkbox" id="tasarim" name="interests" value="tasarim">
+        <label for="tasarim">Tasarım / 3D Modelleme</label><br>
+        
+        <input type="checkbox" id="muzik" name="interests" value="muzik">
+        <label for="muzik">Müzik / Enstrüman</label>
+    </p>
+
+    
+    <p>
+        <label for="biyografi">Kendinizden Kısaca Bahsedin:</label><br>
+        <textarea id="biyografi" name="bio" rows="4" cols="40" placeholder="Buraya yazabilirsiniz..."></textarea>
+    </p>
+
+    
+    <p>
+        <input type="checkbox" id="sozlesme" name="agreement" required>
+        <label for="sozlesme">Kullanım şartlarını okudum ve kabul ediyorum.</label>
+    </p>
+
+    
+    <p>
+        <button type="submit">Kayıt Ol</button>
+        <button type="reset">Formu Temizle</button>
+    </p>
+
+</form>
+
+input
