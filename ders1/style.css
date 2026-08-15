@@ -1,0 +1,31 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  line-height: 1.5;
+}
+
+
+h1 {
+  color: #d9534f;
+}
+
+
+.birinci {
+  color: #007bb5;
+  background-color: #e0f7fa;
+  padding: 10px;
+}
+
+.ikinci {
+  color: #6a1b9a;
+  background-color: #f3e5f5;
+  padding: 10px;
+}
+
+.ucuncu {
+  color: #d84315;
+  background-color: #fbe9e7;
+  padding: 10px;
+  margin-bottom: 10px;
+}
