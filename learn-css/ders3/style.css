@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, Helvetica, sans-serif; 
+  margin: 30px;
+  background-color: #f9f9f9;
+}
+
+
+.baslik {
+  font-family: 'Georgia', serif;      
+  font-size: 28px;                   
+  font-weight: bold;                 
+  color: #2c3e50;                    
+  text-align: center;               
+  text-transform: uppercase;         
+}
+
+
+.metin-1 {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 18px;
+  color: #16a085;
+  text-align: justify;             
+  line-height: 1.6;                 
+}
+
+
+.metin-2 {
+  font-family: 'Courier New', monospace; 
+  font-size: 16px;
+  color: #8e44ad;
+  letter-spacing: 2px;              
+  word-spacing: 5px;                
+  font-style: italic;               
+}
+
+
+.metin-3 {
+  font-size: 15px;
+  color: #c0392b;
+  text-decoration: underline;       
+  text-indent: 30px;                 
+}

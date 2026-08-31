@@ -1,0 +1,14 @@
+body {
+  background-color: #879bb9; 
+  padding: 40px;
+}
+
+.uzay-paragrafi {
+  
+  font-family: 'Segoe UI', Impact, 'Arial Black', Trebuchet MS, sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #244549; 
+  letter-spacing: 1px; 
+  max-width: 650px;
+}

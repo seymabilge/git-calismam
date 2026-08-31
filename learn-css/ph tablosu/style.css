@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+}
+
+.ph-container {
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: white;
+}
+
+.ph-header {
+  background-color: #e0e0e0;
+  padding: 12px 15px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #222;
+  border-bottom: 2px solid #ccc;
+}
+
+.ph-row {
+  padding: 8px 15px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+}
+
+
+.ph-14 { background-color: #4a7bb0; color: white; }
+.ph-13 { background-color: #5b8ec2; color: white; }
+.ph-12 { background-color: #6c9fd3; color: white; }
+.ph-11 { background-color: #7eb1e4; }
+.ph-10 { background-color: #8fc2f4; }
+.ph-9  { background-color: #a0d3ff; }
+.ph-8  { background-color: #b1e2ff; }
+
+
+.ph-7  { background-color: #2e7d32; color: white; }
+
+
+.ph-5  { background-color: #f06292; color: white; }
+.ph-4  { background-color: #e91e63; color: white; }
+.ph-3  { background-color: #d81b60; color: white; }
+.ph-2  { background-color: #c2185b; color: white; }
+.ph-1  { background-color: #ad1457; color: white; }
+.ph-0  { background-color: #880e4f; color: white; }
