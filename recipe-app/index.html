@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarif Defteri</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigasyon Barı -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo" id="logo-home">
+        <span class="logo-icon">🍳</span>
+        <span class="logo-text">Tarif Defteri</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#" class="nav-link active" id="nav-home">Ana Sayfa</a></li>
+        <li><a href="#" class="nav-link">Tarifler</a></li>
+        <li><a href="#" class="nav-link">Hakkında</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="main-wrapper">
+    
+    <header class="app-header">
+      <h1 id="main-title">Tarif Defteri</h1>
+      <p id="main-subtitle">Pişirmek istediğin kategoriyi seç, adımları takip et.</p>
+    </header>
+
+    <main class="container">
+      
+      <!-- 1. KADEME: Kategori Kartları -->
+      <section id="category-section" class="category-grid">
+        <button class="category-card" data-category="tatli">
+          <span class="category-icon">🍰</span>
+          <h2>Tatlılar</h2>
+          <p>Brownie, pasta ve pratik tatlı tarifleri</p>
+        </button>
+
+        <button class="category-card" data-category="yemek">
+          <span class="category-icon">🍲</span>
+          <h2>Yemekler</h2>
+          <p>Doyurucu ana yemekler ve fırın lezzetleri</p>
+        </button>
+
+        <button class="category-card" data-category="corba">
+          <span class="category-icon">🥣</span>
+          <h2>Çorbalar</h2>
+          <p>Sıcak başlangıçlar ve geleneksel çorbalar</p>
+        </button>
+      </section>
+
+      <!-- 2. KADEME: Yemeklerin Resimli Kart Listesi -->
+      <section id="recipes-section" class="recipes-container hidden">
+        <div class="recipes-header">
+          <button id="btn-back-categories" class="btn-back">← Kategorilere Dön</button>
+          <h2 id="current-category-title">Tarifler</h2>
+        </div>
+        <div id="recipe-cards-grid" class="cards-grid">
+          <!-- JS ile resimli yemek kartları basılacak -->
+        </div>
+      </section>
+
+      <!-- 3. KADEME: Tek Bir Tarifin Detay Sayfası -->
+      <section id="recipe-detail-section" class="detail-container hidden">
+        <div class="recipes-header">
+          <button id="btn-back-recipes" class="btn-back">← Yemek Listesine Dön</button>
+        </div>
+        <div id="recipe-detail-content">
+          <!-- JS ile detay basılacak -->
+        </div>
+      </section>
+
+    </main>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
